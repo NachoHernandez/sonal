@@ -1,0 +1,42 @@
+.gray-1 {
+    background: #EEEEEE;
+}
+.gray-2 {
+    background: #DDDDDD;
+}
+.gray-3 {
+    background: #CCCCCC;
+}
+.gray-4 {
+    background: #BBBBBB;
+}
+.gray-5 {
+    background: #AAAAAA;
+}
+.gray-6 {
+    background: #999999;
+}
+.gray-7 {
+    background: #888888;
+}
+.gray-8 {
+    background: #777777;
+}
+.gray-9 {
+    background: #666666;
+}
+.gray-10 {
+    background: #555555;
+}
+.gray-11 {
+    background: #444444;
+}
+.gray-12 {
+    background: #333333;
+}
+
+.column,
+.columns {
+    border-left: 1px solid #222222;
+    border-right: 1px solid #222222;
+}
