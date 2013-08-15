@@ -924,7 +924,9 @@ textarea {
     Media Queries
 \* ==================== */
 
-@media screen and (max-width: 1024px) {
+
+/* *** Tablets *** */
+@media screen and (max-width: 768px) {
 
     .fixed,
     .fixed-fluid,
@@ -937,6 +939,78 @@ textarea {
         position: relative;
         margin: 0 auto;
         width: auto;
+    }
+
+    .fixed .one-medium,
+    .fixed-fluid .one-medium,
+    .fluid .one-medium {
+        width: 8.3333333333333333333333333333333%;
+    }
+
+    .fixed .two-medium,
+    .fixed-fluid .two-medium,
+    .fluid .two-medium {
+        width: 16.666666666666666666666666666667%;
+    }
+
+    .fixed .three-medium,
+    .fixed-fluid .three-medium,
+    .fluid .three-medium {
+        width: 25%;
+    }
+
+    .fixed .four-medium,
+    .fixed-fluid .four-medium,
+    .fluid .four-medium {
+        width: 33.333333333333333333333333333333%;
+    }
+
+    .fixed .five-medium,
+    .fixed-fluid .five-medium,
+    .fluid .five-medium {
+        width: 41.666666666666666666666666666667%;
+    }
+
+    .fixed .six-medium,
+    .fixed-fluid .six-medium,
+    .fluid .six-medium {
+        width: 50%;
+    }
+
+    .fixed .seven-medium,
+    .fixed-fluid .seven-medium,
+    .fluid .seven-medium {
+        width: 58.333333333333333333333333333333%;
+    }
+
+    .fixed .eight-medium,
+    .fixed-fluid .eight-medium,
+    .fluid .eight-medium {
+        width: 66.666666666666666666666666666666%;
+    }
+
+    .fixed .nine-medium,
+    .fixed-fluid .nine-medium,
+    .fluid .nine-medium {
+        width: 75%;
+    }
+
+    .fixed .ten-medium,
+    .fixed-fluid .ten-medium,
+    .fluid .ten-medium {
+        width: 83.333333333333333333333333333333%;
+    }
+
+    .fixed .eleven-medium,
+    .fixed-fluid .eleven-medium,
+    .fluid .eleven-medium {
+        width: 91.666666666666666666666666666666%;
+    }
+
+    .fixed .twelve-medium,
+    .fixed-fluid .twelve-medium,
+    .fluid .twelve-medium {
+        width: 100%;
     }
 
     .fixed .push-one {
@@ -1069,83 +1143,6 @@ textarea {
 
     .fixed .offset-eleven {
         margin-left: 91.666666666666666666666666666666%;
-    }
-
-}
-
-/* *** Tablets *** */
-@media screen and (max-width: 768px) {
-
-    .fixed .one-medium,
-    .fixed-fluid .one-medium,
-    .fluid .one-medium {
-        width: 8.3333333333333333333333333333333%;
-    }
-
-    .fixed .two-medium,
-    .fixed-fluid .two-medium,
-    .fluid .two-medium {
-        width: 16.666666666666666666666666666667%;
-    }
-
-    .fixed .three-medium,
-    .fixed-fluid .three-medium,
-    .fluid .three-medium {
-        width: 25%;
-    }
-
-    .fixed .four-medium,
-    .fixed-fluid .four-medium,
-    .fluid .four-medium {
-        width: 33.333333333333333333333333333333%;
-    }
-
-    .fixed .five-medium,
-    .fixed-fluid .five-medium,
-    .fluid .five-medium {
-        width: 41.666666666666666666666666666667%;
-    }
-
-    .fixed .six-medium,
-    .fixed-fluid .six-medium,
-    .fluid .six-medium {
-        width: 50%;
-    }
-
-    .fixed .seven-medium,
-    .fixed-fluid .seven-medium,
-    .fluid .seven-medium {
-        width: 58.333333333333333333333333333333%;
-    }
-
-    .fixed .eight-medium,
-    .fixed-fluid .eight-medium,
-    .fluid .eight-medium {
-        width: 66.666666666666666666666666666666%;
-    }
-
-    .fixed .nine-medium,
-    .fixed-fluid .nine-medium,
-    .fluid .nine-medium {
-        width: 75%;
-    }
-
-    .fixed .ten-medium,
-    .fixed-fluid .ten-medium,
-    .fluid .ten-medium {
-        width: 83.333333333333333333333333333333%;
-    }
-
-    .fixed .eleven-medium,
-    .fixed-fluid .eleven-medium,
-    .fluid .eleven-medium {
-        width: 91.666666666666666666666666666666%;
-    }
-
-    .fixed .twelve-medium,
-    .fixed-fluid .twelve-medium,
-    .fluid .twelve-medium {
-        width: 100%;
     }
 
 }
