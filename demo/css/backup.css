@@ -1,0 +1,196 @@
+
+/* ==================== *\
+    Fixed Columns
+\* ==================== */
+
+.fixed .one-large {
+    width: 80px;
+}
+
+.fixed .two-large {
+    width: 160px;
+}
+
+.fixed .three-large {
+    width: 240px;
+}
+
+.fixed .four-large {
+    width: 320px;
+}
+
+.fixed .five-large {
+    width: 400px;
+}
+
+.fixed .six-large {
+    width: 480px;
+}
+
+.fixed .seven-large {
+    width: 560px;
+}
+
+.fixed .eight-large {
+    width: 640px;
+}
+
+.fixed .nine-large {
+    width: 720px;
+}
+
+.fixed .ten-large {
+    width: 800px;
+}
+
+.fixed .eleven-large {
+    width: 880px;
+}
+
+.fixed .twelve-large {
+    width: 960px;
+}
+
+/* ==================== *\
+    Fixed Push
+\* ==================== */
+
+.fixed .push-one {
+    left: 80px;
+}
+
+.fixed .push-two {
+    left: 160px;
+}
+
+.fixed .push-three {
+    left: 240px;
+}
+
+.fixed .push-four {
+    left: 320px;
+}
+
+.fixed .push-five {
+    left: 400px;
+}
+
+.fixed .push-six {
+    left: 480px;
+}
+
+.fixed .push-seven {
+    left: 560px;
+}
+
+.fixed .push-eight {
+    left: 640px;
+}
+
+.fixed .push-nine {
+    left: 720px;
+}
+
+.fixed .push-ten {
+    left: 800px;
+}
+
+.fixed .push-eleven {
+    left: 880px;
+}
+
+/* ==================== *\
+    Fixed Pull
+\* ==================== */
+
+.fixed .pull-one {
+    right: 80px;
+}
+
+.fixed .pull-two {
+    right: 160px;
+}
+
+.fixed .pull-three {
+    right: 240px;
+}
+
+.fixed .pull-four {
+    right: 320px;
+}
+
+.fixed .pull-five {
+    right: 400px;
+}
+
+.fixed .pull-six {
+    right: 480px;
+}
+
+.fixed .pull-seven {
+    right: 560px;
+}
+
+.fixed .pull-eight {
+    right: 640px;
+}
+
+.fixed .pull-nine {
+    right: 720px;
+}
+
+.fixed .pull-ten {
+    right: 800px;
+}
+
+.fixed .pull-eleven {
+    right: 880px;
+}
+
+/* ==================== *\
+    Fixed Offset
+\* ==================== */
+
+.fixed .offset-one {
+    margin-left: 80px;
+}
+
+.fixed .offset-two {
+    margin-left: 160px;
+}
+
+.fixed .offset-three {
+    margin-left: 240px;
+}
+
+.fixed .offset-four {
+    margin-left: 320px;
+}
+
+.fixed .offset-five {
+    margin-left: 400px;
+}
+
+.fixed .offset-six {
+    margin-left: 480px;
+}
+
+.fixed .offset-seven {
+    margin-left: 560px;
+}
+
+.fixed .offset-eight {
+    margin-left: 640px;
+}
+
+.fixed .offset-nine {
+    margin-left: 720px;
+}
+
+.fixed .offset-ten {
+    margin-left: 800px;
+}
+
+.fixed .offset-eleven {
+    margin-left: 880px;
+}
