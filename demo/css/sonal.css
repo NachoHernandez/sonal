@@ -1,9 +1,9 @@
 /* ================================= *\
-    Project: (Per)Sonal Grid System
-    Description: (Per)sonal Grid System. Includes Fixed, Fixed-Fluid and Fluid Layout.
+    Project: (Per)sonal Grid System
+    Description: (Per)sonal Grid System. An OOCSS Grid/Framework with Fixed, Fixed-Fluid and Fluid Layout.
     Author: Sadi Qevani
     Date: 15.08.2013
-    Version: Alpha 0.1
+    Version: Alpha 0.2
 \* ================================= */
 
 /* ==================== *\
@@ -395,7 +395,7 @@ textarea {
 }
 
 /* ==================== *\
-    Containers Style
+    Containers Class
 \* ==================== */
 
 .fixed,
@@ -439,7 +439,7 @@ textarea {
 }
 
 /* ==================== *\
-    Column/s
+    Column/s Class
 \* ==================== */
 
 .column,
