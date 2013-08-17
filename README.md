@@ -13,7 +13,7 @@ Code & Examples
 
 (Per)sonal has 3 main containers (classes):
 
-### fixed - The fixed class has a 960px width and all the columns inside this class are pixel based width.
+1. fixed - The fixed class has a 960px width and all the columns inside this class are pixel based width.
 
 ```HTML
 <div class="fixed">
@@ -22,10 +22,7 @@ Code & Examples
 </div>
 ```
 
-### fixed-fluid - This class has a max-width and its also fluid all the columns inside this class are percengage based width.
-
-### fluid - This class has a 90% width and whatever the screen size is the width of this class will expand on 90% of the width of the screen, and all the columns inside this classes use percenage based width.
-
+2. fixed-fluid - This class has a max-width and its also fluid all the columns inside this class are percengage based width.
 
 ```HTML
 <div class="fixed-fluid">
@@ -33,6 +30,8 @@ Code & Examples
 	</div>
 </div>
 ```
+
+3. fluid - This class has a 90% width and whatever the screen size is the width of this class will expand on 90% of the width of the screen, and all the columns inside this classes use percenage based width.
 
 ```HTML
 <div class="fluid">
