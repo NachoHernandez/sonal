@@ -60,7 +60,7 @@ All the classes must use an additional class called "column" / "columns".
 
 The grid classes can be also used to add width to additional elements like form fields, images etc (without including "column" or "columns").
 
-#### Pull/Push and Offset Classes
+#### Pull, Push and Offset Classes
 
 The following classes move the grid system left to right and right to left by using positions and margins:
 
@@ -83,7 +83,38 @@ Some additional classes which you can use are:
 - text-justify (This class will justify text)
 - fluidimg (This class will set the max-width of the image to 100% so it will be fluid for responsive design)
 
-##### Code Examples:
+# Code Examples:
+
+### Container examples
+
+```HTML
+<div class="fixed">
+	<div class="row">
+		<div class="twelve-large columns">
+		</div>
+	</div>
+</div>
+```
+
+```HTML
+<div class="fixed-fluid">
+	<div class="row">
+		<div class="twelve-large columns">
+		</div>
+	</div>
+</div>
+```
+
+```HTML
+<div class="fluid">
+	<div class="row">
+		<div class="twelve-large columns">
+		</div>
+	</div>
+</div>
+```
+
+### Grid Classes
 
 ```HTML
 <div class="fixed">
@@ -97,11 +128,31 @@ Some additional classes which you can use are:
 ```HTML
 <div class="fixed">
 	<div class="row">
-		<div class="six-large columns centered">
+		<div class="twelve-medium twelve-large columns">
 		</div>
 	</div>
 </div>
 ```
+
+```HTML
+<div class="fixed">
+	<div class="row">
+		<div class="twelve-small twelve-medium twelve-large columns">
+		</div>
+	</div>
+</div>
+```
+
+```HTML
+<div class="fixed">
+	<div class="row">
+		<div class="twelve-nano twelve-small twelve-medium twelve-large columns">
+		</div>
+	</div>
+</div>
+```
+
+### Push, Pull and Offset Classes
 
 ```HTML
 <div class="fixed-fluid">
@@ -125,6 +176,17 @@ Some additional classes which you can use are:
 <div class="fixed">
 	<div class="row">
 		<div class="six-large offset-four columns">
+		</div>
+	</div>
+</div>
+```
+
+### Additional Classes
+
+```HTML
+<div class="fixed">
+	<div class="row">
+		<div class="six-large columns centered">
 		</div>
 	</div>
 </div>
