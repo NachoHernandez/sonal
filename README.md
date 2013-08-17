@@ -59,7 +59,13 @@ The grid classes can be also used to add width to additional elements like form 
 
 #### Pull/Push and Offset Classes
 
+The following classes move the grid system left to right and right to left by using positions and margins:
 
+- push-(number)
+- pull-(number)
+- offset-(number)
+
+(Replace the number with a keyword number from one to twelve.)
 
 #### Additional Classes
 
@@ -95,7 +101,7 @@ Some additional classes which you can use are:
 ```
 
 ```HTML
-<div class="fixed">
+<div class="fixed-fluid">
 	<div class="row">
 		<div class="six-large push-four columns">
 		</div>
@@ -104,7 +110,7 @@ Some additional classes which you can use are:
 ```
 
 ```HTML
-<div class="fixed">
+<div class="fluid">
 	<div class="row">
 		<div class="six-large pull-four columns">
 		</div>
