@@ -11,6 +11,8 @@
 Code & Examples
 =====
 
+#### Containers
+
 (Per)sonal has 3 main containers (classes):
 
 - fixed - The fixed class has a 960px width and all the columns inside this class are pixel based width.
@@ -40,8 +42,20 @@ Code & Examples
 </div>
 ```
 
+#### Grid Columns
 
+(Per)sonal has 4 main grid column classes which will help you to be more flexible on the way you want to re-order your website in PC Screens, Tablet Screens, Smartphone screens and Shitty Smartphone screens.
 
+The classes are:
+
+(number)-large
+(number)-medium
+(number)-small
+(number)-nano
+
+All the classes must use an additional class called "column" / "columns".
+
+The grid classes can be also used to add width to additional elements like form fields, images etc (without including "column" or "columns").
 
 Live Demo
 =====
