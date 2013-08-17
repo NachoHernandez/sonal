@@ -1,0 +1,14 @@
+.gridColor {
+    background: #61b2cd;
+    color: #ffffff;
+}
+
+.add-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.column,
+.columns {
+    border: 1px solid #13769b;
+}
