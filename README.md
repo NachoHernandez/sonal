@@ -166,7 +166,7 @@ Some additional classes which you can use are:
 ```HTML
 <div class="fluid">
 	<div class="row">
-		<div class="six-large pull-four columns">
+		<div class="six-large pull-four columns right">
 		</div>
 	</div>
 </div>
