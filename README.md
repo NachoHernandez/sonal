@@ -48,14 +48,78 @@ Code & Examples
 
 The classes are:
 
-(number)-large
-(number)-medium
-(number)-small
-(number)-nano
+- (number)-large
+- (number)-medium
+- (number)-small
+- (number)-nano
 
 All the classes must use an additional class called "column" / "columns".
 
 The grid classes can be also used to add width to additional elements like form fields, images etc (without including "column" or "columns").
+
+#### Pull/Push and Offset Classes
+
+
+
+#### Additional Classes
+
+Some additional classes which you can use are:
+
+- centered (This class will center any grid to the middle)
+- left (This class will align everything left)
+- right (This class will align everything right)
+- text-left (This class will align text left)
+- text-right This class will align text right)
+- text-center (This class will align text center)
+- text-justify (This class will justify text)
+- fluidimg (This class will set the max-width of the image to 100% so it will be fluid for responsive design)
+
+##### Code Examples:
+
+```HTML
+<div class="fixed">
+	<div class="row">
+		<div class="twelve-large columns">
+		</div>
+	</div>
+</div>
+```
+
+```HTML
+<div class="fixed">
+	<div class="row">
+		<div class="six-large columns centered">
+		</div>
+	</div>
+</div>
+```
+
+```HTML
+<div class="fixed">
+	<div class="row">
+		<div class="six-large push-four columns">
+		</div>
+	</div>
+</div>
+```
+
+```HTML
+<div class="fixed">
+	<div class="row">
+		<div class="six-large pull-four columns">
+		</div>
+	</div>
+</div>
+```
+
+```HTML
+<div class="fixed">
+	<div class="row">
+		<div class="six-large offset-four columns">
+		</div>
+	</div>
+</div>
+```
 
 Live Demo
 =====
