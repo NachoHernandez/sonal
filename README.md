@@ -7,6 +7,9 @@
 
 (Per)sonal grid system is a simple css grid system which may or may not convert it a full stack framework, at the moment its in alpha version and its not meant for production sites, but you can use the piece of codes at your liking.
 
+#### Grid Demo
+
+http://sadiqevani.com/works/sonal/
 
 Code & Examples
 =====
@@ -126,8 +129,3 @@ Some additional classes which you can use are:
 	</div>
 </div>
 ```
-
-Live Demo
-=====
-
-http://sadiqevani.com/works/sonal/
