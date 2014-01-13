@@ -3,13 +3,16 @@
 
 ## Description
 
-(Per)sonal Grid System. An OOCSS Grid/Framework with Fixed, Fixed-Fluid and Fluid Layout.
+(Per)sonal Grid System. An OOCSS Grid/Framework to build responvie web apps and websites.
 
-(Per)sonal grid system is a simple css grid system which may or may not convert it a full stack framework, at the moment its in alpha version and its not meant for production sites, but you can use the piece of codes at your liking.
+(Per)sonal grid system is a simple css grid system which is slowly converting into a full stack framework, at the moment its in beta version and you may use it at your own discretion.
 
 #### Grid Demo
 
 http://sadiqevani.com/works/sonal/
+http://sadiqevani.com/works/sonal/typography.html
+http://sadiqevani.com/works/sonal/buttons.html
+http://sadiqevani.com/works/sonal/forms.html
 
 Code & Examples
 =====
@@ -18,7 +21,7 @@ Code & Examples
 
 (Per)sonal has 3 main containers (classes):
 
-- fixed - The fixed class has a 960px width and all the columns inside this class are pixel based width.
+- fixed - The fixed class has a 960px width.
 
 ```HTML
 <div class="fixed">
@@ -56,31 +59,77 @@ The classes are:
 - (number)-small
 - (number)-nano
 
-All the classes must use an additional class called "column" / "columns".
+PS:(Replace the number with a keyword number from one to twelve.)
+
+All the classes must use an additional class called "column" / "columns", i have implemented it this way since i tend to use the classes as a width container, and set this classes on objects i want to give a specific width.
 
 The grid classes can be also used to add width to additional elements like form fields, images etc (without including "column" or "columns").
 
 #### Pull, Push and Offset Classes
 
-The following classes move the grid system left to right and right to left by using positions and margins:
+The following classes move the grid system left to right and right to left by using positions and margins, so in this way you can reorder the grids the way you like:
 
 - push-(number)
 - pull-(number)
 - offset-(number)
 
-(Replace the number with a keyword number from one to twelve.)
+PS:(Replace the number with a keyword number from one to twelve.)
 
-#### Additional Classes
+#### Button Classes
+
+Sonal has 7 types of buttons, which can all be used on 3 type of sizes overall and with 4 different colors.
+
+- Buttons classes may be used on button elements, input[type=button] elements and on link(a=href) elements:
+```HTML
+<button class="default"></button>
+<button class="default red"></button>
+<button class="default red small"></button>
+
+<input type="submit" class="default" />
+<input type="submit" class="default red" />
+<input type="submit" class="default red small" />
+
+<a href="#" class="default" ></a>
+<a href="#" class="default red" ></a>
+<a href="#" class="default red small" ></a>
+```
+
+#### Button Classes List
+
+- default
+- basic
+- square
+- minimal
+- depth
+- glass
+- plastic
+
+#### Button Colors Class List
+
+- red
+- blue
+- green
+- yellow
+
+#### Button Size Class list
+
+- small
+- large
+
+#### Helper Classes
 
 Some additional classes which you can use are:
 
 - centered (This class will center any grid to the middle)
-- left (This class will align everything left)
-- right (This class will align everything right)
+- align-left (This class will align everything left)
+- align-right (This class will align everything right)
 - text-left (This class will align text left)
 - text-right This class will align text right)
 - text-center (This class will align text center)
 - text-justify (This class will justify text)
+- text-overline (This class will overline a text block)
+- text-deleted (This class will put a middle line on the text, as it is deleted)
+- text-underline (This class will underline a text)
 - fluidimg (This class will set the max-width of the image to 100% so it will be fluid for responsive design)
 
 # Code Examples:
