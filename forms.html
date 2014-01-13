@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>(Per)sonal CSS Grid System</title>
+
+    <meta name="description" content="Example Description">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width">
+
+    <link rel="stylesheet" href="css/_sonal.css">
+    <link rel="stylesheet" href="css/_typography.css">
+    <link rel="stylesheet" href="css/_forms.css">
+    <link rel="stylesheet" href="css/_buttons.css">
+    <link rel="stylesheet" href="css/_tables.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <style>
+        .gridColor {
+            background: #61b2cd;
+            color: #ffffff;
+        }
+
+        .add-margin {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .add-padding {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .column,
+        .columns {
+            border: 1px solid #13769b;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<main>
+    <div class="fixed add-margin">
+        <div class="row gridColor">
+            <div class="twelve-large columns text-center">
+                <h1>Forms</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve-large columns add-padding">
+                <form action="#">
+                    <fieldset>
+                        <legend>Basic Form</legend>
+                        <div class="form-container horizontal">
+                            <label for="one" class="four-medium two-large label-box">This is nr One:</label>
+                            <input type="text" id="one" class="eight-medium four-large form-box" placeholder="Hello one"/>
+                            <label for="two" class="four-medium two-large label-box">This is nr Two:</label>
+                            <input type="text" id="two" class="eight-medium four-large form-box" placeholder="Hello two"/>
+                        </div>
+                        <div class="form-container">
+                            <label for="three" class="four-medium two-large label-box">This is nr Three:</label>
+                            <input type="text" id="three" class="twelve-medium four-large form-box" placeholder="Hello three"/>
+                            <label for="four" class="four-medium two-large label-box">This is nr Four:</label>
+                            <input type="text" id="four" class="twelve-medium four-large form-box" placeholder="Hello four"/>
+                        </div>
+                        <div class="form-container">
+                            <label for="textare1" class="label-box">This is nr Five</label>
+                            <textarea name="textarea" id="textare1" cols="30" rows="10" class="form-box" placeholder="Hello Five"></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Input Forms</legend>
+                        <div class="form-container horizontal">
+
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Vertical Forms</legend>
+                        <div class="form-container">
+                            <label for="username" class="four-medium two-large label-box left">Username:</label>
+                            <input type="text" id="username" class="eight-medium four-large form-box" placeholder="Username"/>
+                            <label for="password" class="four-medium two-large label-box left">Password:</label>
+                            <input type="text" id="password" class="eight-medium four-large form-box" placeholder="Password"/>
+                            <label for="city" class="four-medium two-large label-box left">City:</label>
+                            <input type="text" id="city" class="eight-medium four-large form-box" placeholder="City"/>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Input Notifications</legend>
+                        <div class="form-container">
+                            <label for="username1" class="error two-large label-box">Username:</label>
+                            <input type="text" id="username1" class="error twelve-medium four-large form-box" placeholder="Username"/>
+                            <label for="password1" class="success two-large label-box">Password:</label>
+                            <input type="text" id="password1" class="success twelve-medium four-large form-box" placeholder="Password"/>
+                            <label for="city1" class="warning two-large label-box">City:</label>
+                            <input type="text" id="city1" class="warning twelve-medium four-large form-box" placeholder="City"/>
+                        </div>
+                        <div class="form-container">
+                            <span class="one-large prefix">@</span><input type="text" class="eleven-large form-box"/>
+                            <span class="one-large error prefix">!</span><input type="text" class="eleven-large form-box"/>
+                            <span class="one-large warning prefix">!</span><input type="text" class="eleven-large form-box"/>
+                            <span class="one-large success prefix">Ok</span><input type="text" class="eleven-large form-box"/>
+                            <span class="one-large error prefix">!</span><input type="text" class="eleven-large error form-box"/>
+                            <span class="one-large warning prefix">!</span><input type="text" class="eleven-large warning form-box"/>
+                            <span class="one-large success prefix">Ok</span><input type="text" class="eleven-large success form-box"/>
+                            <span class="one-large prefix"><input type="checkbox"/></span><input type="text" class="eleven-large form-box"/>
+                            <span class="one-large prefix"><input type="radio"/></span><input type="text" class="eleven-large form-box"/>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Random</legend>
+                        <div class="form-container horizontal">
+                            <input type="text" class="form-box" placeholder="Disabled Form" disabled/>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

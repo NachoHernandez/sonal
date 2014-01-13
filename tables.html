@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>(Per)sonal CSS Grid System</title>
+
+    <meta name="description" content="Example Description">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width">
+
+    <link rel="stylesheet" href="css/_sonal.css">
+    <link rel="stylesheet" href="css/_typography.css">
+    <link rel="stylesheet" href="css/_forms.css">
+    <link rel="stylesheet" href="css/_buttons.css">
+    <link rel="stylesheet" href="css/_tables.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <style>
+        .gridColor {
+            background: #61b2cd;
+            color: #ffffff;
+        }
+
+        .add-margin {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .add-padding {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .column,
+        .columns {
+            border: 1px solid #13769b;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<main>
+    <div class="fixed add-margin">
+        <div class="row gridColor">
+            <div class="twelve-large columns text-center">
+                <h1>Tables</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve-large columns">
+                <table class="standard table">
+                    <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Lastname</td>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>Hello</td>
+                        <td>World</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve-large columns">
+                <table class="zebra table">
+                    <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Lastname</td>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>Hello</td>
+                        <td>World</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve-large columns">
+                <table class="state table">
+                    <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Lastname</td>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>Hello</td>
+                        <td>World</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve-large columns">
+                <table class="bordered table">
+                    <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Lastname</td>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>Hello</td>
+                        <td>World</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve-large columns">
+                <table class="colored-header table">
+                    <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Lastname</td>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>Hello</td>
+                        <td>World</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

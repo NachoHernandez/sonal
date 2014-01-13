@@ -1,0 +1,118 @@
+/* ==================== *\
+   - Forms
+\* ==================== */
+
+.form-container {
+    margin: 10px 0;
+}
+
+.form-container:before,
+.form-container:after {
+    display: table;
+    content: " ";
+}
+
+.form-container:after {
+    clear: both;
+}
+
+.form-container {
+    *zoom: 1;
+}
+
+.form-container.horizontal .form-box,
+.form-container.horizontal .label-box {
+    float: left;
+}
+
+.label-box {
+    display: block;
+    padding: 10px;
+    font-size: 0.85714285714285714285714285714286em;
+    font-family: "helvetica neue", helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+.form-box {
+    -webkit-box-shadow: 1px 1px 10px -5px #000000;
+    -moz-box-shadow: 1px 1px 10px -5px #000000;
+    box-shadow: 1px 1px 10px -5px #000000;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #bebebe;
+    border-radius: 2px;
+    color: #545454;
+    font-size: 0.85714285714285714285714285714286em;
+    font-family: "helvetica neue", helvetica, sans-serif;
+}
+
+.form-box:focus {
+    border: 1px solid #3972b9;
+    box-shadow: 0 0 5px rgba(57, 114, 185, 0.4) inset;
+    color: #545454;
+}
+
+input[disabled] {
+    background: #f0f0f0;
+    border: 1px solid #bebebe;
+    cursor: not-allowed;
+}
+
+.prefix {
+    background: #bebebe;
+    border-right: 1px solid #909090;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    float: left;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 13px;
+    margin-right: -1px;
+    width: 100%;
+    text-align: center;
+}
+
+.prefix.error {
+    background: #e75656;
+    border-right: 1px solid #b02626;
+}
+
+.prefix.warning {
+    background: #eab160;
+    border-right: 1px solid #bf8534;
+}
+
+.prefix.success {
+    background: #66a750;
+    border-right: 1px solid #316220;
+}
+
+.label-box.error {
+    color: #e75656;
+}
+
+.form-box.error {
+    background: #f6e2e2;
+    border: 1px solid #e75656;
+}
+
+.label-box.warning {
+    color: #eab160;
+}
+
+.form-box.warning {
+    background: #f5e7d2;
+    border: 1px solid #eab160;
+}
+
+.label-box.success {
+    color: #66a750;
+}
+
+.form-box.success {
+    background: #def3d6;
+    border: 1px solid #66a750;
+}

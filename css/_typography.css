@@ -1,0 +1,210 @@
+/* ==================== *\
+    Typography Classes
+\* ==================== */
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-weight: normal;
+}
+
+h1, .h1 {
+    font-size: 2.7142857142857142857142857142857em;
+    margin: 0.67em 0;
+}
+
+h2, .h2 {
+    font-size: 2.2857142857142857142857142857143em;
+    margin: 0.83em 0;
+}
+
+h3, .h3 {
+    font-size: 1.7142857142857142857142857142857em;
+    margin: 1em 0;
+}
+
+h4, .h4 {
+    font-size: 1.2857142857142857142857142857143em;
+    margin: 1.33em 0;
+}
+
+h5, .h5 {
+    font-size: 1em;
+    margin: 1.67em 0;
+}
+
+h6, .h6 {
+    font-size: 0.85714285714285714285714285714286em;
+    margin: 2.33em 0;
+}
+
+b,
+strong,
+.bold {
+    font-weight: bold;
+}
+
+i,
+em,
+.italic {
+    font-style: italic;
+}
+
+strong em,
+em strong,
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+abbr[title], .abbr {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+blockquote, .blockquote {
+    margin: 0;
+    padding: 0.5em 40px;
+    border-left: 5px solid #d2d2d2;
+}
+
+blockquote cite:before,
+.blockquote cite:before,
+blockquote .cite:before,
+.blockquote .cite:before {
+    content: "\2014 \0020";
+}
+
+cite, .cite {
+    display: block;
+    font-size: 0.8125em;
+    color: #555555;
+}
+
+dfn {
+    font-style: italic;
+}
+
+p,
+pre {
+    margin: 0.71428571428571428571428571428571em 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-size: 1em;
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: none;
+}
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+small, .small {
+    font-size: 80%;
+}
+
+mark, .mark {
+    background: #ff0;
+    color: #000;
+}
+
+sub, .sub
+sup, .sup {
+    position: relative;
+    vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+}
+
+sup, .sup {
+    top: -0.5em;
+}
+
+sub, .sub {
+    bottom: -0.25em;
+}
+
+/* ==================== *\
+    List Classes
+\* ==================== */
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+.no-style-list,
+.inline-list {
+    padding-left: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.inline-list > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* ==================== *\
+    Text Classes
+\* ==================== */
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.text-overline {
+    text-decoration: overline;
+}
+
+.text-deleted {
+    text-decoration: line-through;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
