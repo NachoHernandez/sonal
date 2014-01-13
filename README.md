@@ -80,6 +80,7 @@ PS:(Replace the number with a keyword number from one to twelve.)
 Sonal has 7 types of buttons, which can all be used on 3 type of sizes overall and with 4 different colors.
 
 - Buttons classes may be used on button elements, input[type=button] elements and on link(a=href) elements:
+
 ```HTML
 <button class="default"></button>
 <button class="default red"></button>
